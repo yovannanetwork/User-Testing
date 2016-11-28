@@ -1,0 +1,9 @@
+*{
+    outline: 1px solid black;
+}
+header{
+    background-image: url(../image/large.jpg);
+    background-size: cover;
+    height: 580px;
+    color: rbg()
+}
