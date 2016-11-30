@@ -12,3 +12,8 @@
         margin: 0 auto;
     }
 }
+@media screen (max-width: 320px){
+    .pasos i{
+        text-align: right;
+    }
+}
