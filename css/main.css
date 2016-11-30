@@ -1,4 +1,7 @@
 
+body{
+    margin: 0;
+}
 body h2, h3, h4, h5{
     color: dodgerblue;
 }
@@ -164,7 +167,7 @@ margin: 18px 0;
     background-color: #086fba;
     color: white;
 }
-.uso-testing h3{
+.banner h3{
     color: white;
     text-transform: uppercase;
 }
@@ -190,7 +193,36 @@ footer .redes-sociales i{
     margin: 10px;
 }
 
+/*-----------contacto-------*/
 
+.contacto{
+    height: 630px;
+}
+.formulario{
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    left: 0;
+    background: white;
+    border-top: 8px solid dodgerblue;
+}
+.formulario h3{
+    color: black;
+    padding: 5px 0;
+    border-bottom: 2px solid darkgray;
+    width: 90%;
+    margin: 0 auto;
+}
+.formulario form{
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+}
+.formulario form i{
+    color: orangered;
+}
 
 
 
