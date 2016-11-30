@@ -9,7 +9,8 @@
 	  	<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
-		<header>
+		<header class="color">
+         <div class="fondo">
 		    <div class="container">
 		        <div class="row">
 		            <div class="col-md-3">
@@ -28,7 +29,7 @@
 		        </div>
 		        <div class="row">
 		            <div class="texto">
-		                <h2>Obtèn videos de personas reales utilizando tu  sitio web, en 1 Hora</h2>
+		                <h1>Obtèn videos de personas reales utilizando tu  sitio web, en 1 Hora</h1>
 		            </div>
 		        </div>
             </div>
@@ -36,7 +37,7 @@
 		    <div class="banner">
 		        <div class="container">
 		            <div class="row">
-		                <div class="col-md-6 col-affset-md-2">
+		                <div class="col-md-6 col-affset-md-2 text-right">
 		                    <h3>prueba gratuita</h3>
 		                    <p>Obtèn un video gratis en 5 minutos</p>
 		                </div>
@@ -48,25 +49,26 @@
 		            </div>
 		        </div>
 		    </div>
+		  </div>
 		</header>
     <!--------servicios------->
     
     <section class="services text-center">
         <div class="container">
-            <h3 class="text-center">Servicios</h3>
+            <h3 class="text-center">Nuestros Servicios</h3>
             <div class="row">
                 <div class="col-md-4">
-                    <i class="icon-video"></i>
+                    <div class="icon-container"><i class="icon-video"></i></div>
                     <h4>Pruebalo gratis</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. consequuntur quisquam sunt! Culpa, asperiores.</p>
                 </div>
                 <div class="col-md-4">
-                    <i class="icon-clock"></i>
+                    <div class="icon-container"><i class="icon-clock"></i></div>
                     <h4>Compra el servicio completo</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. consequuntur quisquam sunt! Culpa, asperiores.</p>
                 </div>
                 <div class="col-md-4">
-                    <i class="icon-document"></i>
+                    <div class="icon-container"><i class="icon-document"></i></div>
                     <h4>Obtèn el resultado en 1 dìa</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. consequuntur quisquam sunt! Culpa, asperiores.</p>
                 </div>
@@ -76,13 +78,16 @@
     
     <!------------video--------->
     
-    <section class="ejemplo">
+    <section class="video">
         <div class="container">
-            <div class="row">
+           <img class="separador" src="image/separador.png" alt="">
+            <div class="row ejemplo">
                 <div class="col-md-6">
-                    <h3>Ejemplo de <img src="image/logo-2.jpg" class="img-responsive" alt=""></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eligendi quis, soluta alias ullam animi illum hic. Vel ad perspiciatis soluta molestiae quod, accusantium est non laudantium, itaque ipsum ducimus!</p>
-                    <img src="image/flecha.png" alt="">
+                    <h3>Ejemplo de <img class="user" src="image/logo-2.jpg" width="220px"  alt=""></h3>
+                    <p>En este video te damos un ejemplo de un integrante de nuestro panel evaluando la experiencia de usa de </p>
+                    <p> <small>mimediamanzan.com</small></p>
+                    <p>El objetivo de user testing 360 es identificar situaciones confusas de los usuarios en su web y describir soluciones, que garanticen una experiencia de uso atisfactorio.</p>
+                    <img class="flecha" src="image/flecha.png" alt="">
                 </div>
                 <div class="col-md-6">
                     <div class="embed-responsive embed-responsive-16by9">
@@ -97,18 +102,22 @@
     <section class="pasos">
         <div class="container">
             <div class="row">
-                <div class="col-md-5">
-                    <img src="image/sec-2.jpg" class="img-responsive" alt="">
+              
+                <div class="col-md-6 imagen">
+                   <div class="imagen-iconos">
+                    <div class="iconos-verticales">
+                       <div class="iconos"><i class="icon-pencil"></i></div>
+                       <div class="iconos"><i class="icon-speedometer"></i></div>
+                       <div class="iconos"><i class="icon-search"></i></div>
+                       
+                    </div>
+                  </div>
                 </div>
-                <div class="col-md-1">
-                    <div class="icon-pencil"></div>
-                    <div class="icon-speedometer"></div>
-                    <div class="icon-search"></div>
-                </div>
-                <div class="col-md-6">
+                
+                <div class="col-md-6 texto-pasos">
                     <h4>Lo quiero ¿Què hago?</h4>
                     <h5>Paso 1: envianos tu link</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eos praesentium, quod nobis sapiente incidunt corrupti!</p>
+                    <p>Al darle click al botòn de prueba. Coloca tu nombre y tu correo electronico a donde enviaremos el video y el informe con el feedback.</p>
                     <h5>Paso 2: describe a tu pùblico onjetivo</h5>
                     <p>describe las acciones que quieres que evaualuemos por ejemplo:</p>
                     <ul>
@@ -118,7 +127,7 @@
                     </ul>
                     <p>Puedes preguntar como las que te mostramos</p>
                     <h5>Paso 3: recibe un video y el feedback completo</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. D natus.</p>
+                    <p>Recibe un combo de 7 videos y un informe detallado con las captaciones usabilidad de tu producto.</p>
                 </div>
             </div>
         </div>
@@ -126,26 +135,28 @@
     
     <!-------uso-testing----->
     <section class="uso-testing">
-        <div class="container">
+        <div class="container testing">
+           <img class="separador" src="image/separador.png" alt="">
             <div class="row">
-                <div class="col-md-6">
-                    <h3>Por què usar <img src="image/logo-2.jpg" class="img-responsive" alt=""></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt incidunt aspernatur veniam, molestiae quia? Iusto doloremque nisi rerum magnam dolorum, soluta, aspernatur natus eligendi error accusamus dignissimos architecto deleniti illum.</p>
+                <div class="col-md-6 uso">
+                    <h3>Por què usar <img src="image/logo-2.jpg" width="210px" alt=""></h3>
+                    <p>En la era en la que nos encontarmos, la web se ha convertido en el mejor sitio para llegar a millones de personas en segundos, pero ¿què si el produnto digital que ofreces no es bueno o no se entiende? Pierdes esta enorme oportunidad. Con <a href="#"> User Testing 360</a>, puedes entender la experiencia de uso de tu pagìna o roducto digital y mejorarla para que satisfaga todas las necesidades de tus usuarios. Con <a href="#">User Testing 360 podras entender</a></p>
                     <ul>
                         <li>¿Còmo tu pùblico objetio?</li>
-                        <li>¿bsbbbdjs?</li>
-                        <li>bxbjxshvhsvhnsbxh xbsjjsb</li>
+                        <li>¿Què se hace fàcil o dificil navegador en tu producto?</li>
+                        <li>¿Què es lo que tu publico quiere hacer y tal vez no obtiene o consigo</li>
                     </ul>
-                    <p><a href="#">User Testing 360</a> te Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus recusandae quis q similique fugit fugiat, in totam. Repellat, tempore.</p>
+                    <p><a href="#">User Testing 360</a> te ayudarà a responder estas preguntas y muchas màs. Es el toque final perfecto para tu pàgina o producto digital.</p>
                 </div>
                 <div class="col-md-6">
                     <img src="image/banner.jpg" class="img-responsive" alt="">
                 </div>
             </div>
+        </div>
             
             <div class="banner">
-		        <div class="container">
-		            <div class="row">
+              <div class="container">
+                 <div class="row">
 		                <div class="col-md-6 col-affset-md-2">
 		                    <h3>prueba gratuita</h3>
 		                    <p>Obtèn un video gratis en 5 minutos</p>
@@ -155,10 +166,11 @@
 		                        Pruebalo gratis
 		                    </button>
 		                </div>
-		            </div>
+		          </div>
 		        </div>
-		    </div>
-        </div>
+		      </div>
+		    
+        
     </section>
     
     <!--------footer------->
@@ -167,13 +179,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p>Escribinos a: <br> experienciadeususrio@gmail.com <br>telef:930162726</p>
+                    <p>Escribinos a: <br> <span>experienciadeususrio@gmail.com</span> <br>telef:930162726</p>
                 </div>
                 <div class="col-md-6 text-right">
                     <div class="redes-sociales">
                         <i class="icon-facebook"><a href="#"></a></i>
                         <i class="icon-twitter"><a href="#"></a></i>
-                        <p>copyright njdbjbddh cjbdjbc</p>
+                        <p>copyright@2015-User Testing 360</p>
                     </div>
                 </div>
             </div>
