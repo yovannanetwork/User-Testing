@@ -1,0 +1,14 @@
+
+@media screen (max-width: 320px){
+    header h1{
+        width: 100%;
+        margin: 0 auto;
+        color: red;
+    }
+}
+@media (max-width: 320px){
+    .banner{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
