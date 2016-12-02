@@ -3,56 +3,63 @@
 	<head>
 	  	<meta charset="utf-8">
 	  	<title>User Testing 360°</title>
-	  	<link rel="stylesheet" href="css/queries.css">
 	  	<link rel="stylesheet" href="css/bootstrap.min.css">
+	  	<script src="js/jquery.js"></script>
+	  	<script src="js/bootstrap.min.js"></script>
+	  	<link rel="stylesheet" href="css/queries.css"> 	
 	  	<link rel="stylesheet" href="css/animate.css">
 	  	<link rel="stylesheet" href="css/icomoon.css">
 	  	<link rel="stylesheet" href="css/main.css">
 	  	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0">
+	  	
 	</head>
 	<body>
-		<header class="color">
-         <div class="fondo">
-		    <div class="container">
-		        <div class="row">
-		            <div class="col-md-3">
-		                <img src="image/user-r.png" class="img-responsive" alt="">
-		            </div>
-		            <div class="col-md-9">
-		                <nav>
-		                    <ul class="list-inline">
-		                        <l1><a href="#servicios">¿Què me ofrece?</a></l1>
-		                        <l1><a href="#como-funciona">¿Còmo funciona?</a></l1>
-		                        <l1><a href="#como-usar">¿Por què usarlo?</a></l1>
-		                        <l1><a href="contact.html">Contactanos</a></l1>
-		                    </ul>
-		                </nav>
-		            </div>
-		        </div>
-		        <div class="row">
-		            <div class="texto">
-		                <h1>Obtèn videos de personas reales utilizando tu  sitio web, en 1 Hora</h1>
-		            </div>
-		        </div>
-            </div>
-            
-		    <div class="banner">
-		        <div class="container">
-		            <div class="row">
-		                <div class="col-md-6 col-affset-md-2 text-right">
-		                    <h3>prueba gratuita</h3>
-		                    <p>Obtèn un video gratis en 5 minutos</p>
-		                </div>
-		                <div class="col-md-6">
-		                    <button>
-		                        Pruebalo gratis
-		                    </button>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
-		  </div>
-		</header>
+		 <!--------header------->
+		 <header>
+		     <div class="fondo-transparente">
+		         <div class="container">
+		             <div class="row">
+		                 <div class="col-md-3 col-ms-9 col-xs-6">
+		                     <img src="image/user-r.png" class="img-responsive" alt="">
+		                 </div>
+		                 <div class="col-md-9 col-ms-3 col-xs-6">
+                             <div class="dropdown text-right">
+                                 <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">Menù <i class="caret"></i></button>
+                             </div>
+		                     <nav class="visible-md">
+		                         <ul class="list-inline text-right dropdown-menu" role="menu" data-toggle="collapse" aria-labelledby="dropdownMenu1">
+		                             <li role="presentation"><a role="menuitem" tabindex="-1" href="#">¿Què me ofrece</a></li>
+		                             <li role="presentation"><a role="menuitem" tabindex="-1" href="#">¿Còmo funciona?</a></li>
+		                             <li role="presentation"><a role="menuitem" tabindex="-1" href="#">¿Por que usarlo?</a></li>
+		                             <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Contactanos</a></li>
+		                         </ul>
+		                     </nav>
+		                 </div>
+		             </div>
+		         </div>
+		         <div class="container">
+		             <div class="row">
+		                 <div class="col-ms-6 col-xs-12">
+		                     <h1 class="text-center">Obtèn videos de personas reales <br>utilizando tu sitio web, en 1  Hora </h1>
+		                 </div>
+		             </div>
+		         </div>
+		         
+		         <div class="banner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7 col-ms-5 text-right">
+                                <h2>PRUEBA GRATUITA</h2>
+                                <p>Obtèn un video gratis de 5 minutos</p>
+                            </div>
+                            <div class="col-md-5 col-ms-7" id="llamado">
+                                <button>Pruebalo gratis</button>
+                            </div>
+                        </div>
+                    </div>   
+		         </div>
+		     </div>
+		 </header>
     <!--------servicios------->
     
     <section class="services text-center"><a name="servicios"></a>
@@ -104,32 +111,32 @@
     <section class="pasos"><a name="como-funciona"></a>
         <div class="container">
             <div class="row">
-              
-                <div class="col-md-6 imagen">
-                   <div class="imagen-iconos">
-                    <div class="iconos-verticales">
-                       <div class="iconos"><i class="icon-pencil"></i></div>
-                       <div class="iconos"><i class="icon-speedometer"></i></div>
-                       <div class="iconos"><i class="icon-search"></i></div>
-                       
-                    </div>
-                  </div>
+                <div class="fondo-imagen">
+                   <div class="col-md-6 imagen">
+                   
+                   </div>
                 </div>
                 
                 <div class="col-md-6 texto-pasos">
                     <h4>Lo quiero ¿Què hago?</h4>
-                    <h5>Paso 1: envianos tu link</h5>
-                    <p>Al darle click al botòn de prueba. Coloca tu nombre y tu correo electronico a donde enviaremos el video y el informe con el feedback.</p>
-                    <h5>Paso 2: describe a tu pùblico onjetivo</h5>
-                    <p>describe las acciones que quieres que evaualuemos por ejemplo:</p>
-                    <ul>
-                        <li>A primer avista de ¿Què crees que trata la pagina?</li>
-                        <li>Busca el botòn de inscribirte ò comprar</li>
-                        <li>¿Es fàcil leer los textos</li>
-                    </ul>
-                    <p>Puedes preguntar como las que te mostramos</p>
-                    <h5>Paso 3: recibe un video y el feedback completo</h5>
-                    <p>Recibe un combo de 7 videos y un informe detallado con las captaciones usabilidad de tu producto.</p>
+                    <div class="iconos"><i class="icon-pencil"></i>
+                        <h5>Paso 1: envianos tu link</h5>
+                        <p>Al darle click al botòn de prueba. Coloca tu nombre y tu correo electronico a donde enviaremos el video y el informe con el feedback.</p>
+                    </div>
+                    <div class="iconos"><i class="icon-speedometer"></i>
+                        <h5>Paso 2: describe a tu pùblico objetivo</h5>
+                        <p>describe las acciones que quieres que evaualuemos por ejemplo:</p>
+                        <ul>
+                           <li>A primer avista de ¿Què crees que trata la pagina?</li>
+                           <li>Busca el botòn de inscribirte ò comprar</li>
+                           <li>¿Es fàcil leer los textos</li>
+                        </ul>
+                        <p>Puedes preguntar como las que te mostramos</p>
+                    </div>
+                    <div class="iconos"><i class="icon-search"></i>
+                       <h5>Paso 3: recibe un video y el feedback completo</h5>
+                       <p>Recibe un combo de 7 videos y un informe detallado con las captaciones usabilidad de tu producto.</p>
+                    </div>    
                 </div>
             </div>
         </div>
@@ -155,24 +162,19 @@
                 </div>
             </div>
         </div>
-            
-            <div class="banner">
-              <div class="container">
-                 <div class="row">
-		                <div class="col-md-6 col-affset-md-2">
-		                    <h3>prueba gratuita</h3>
-		                    <p>Obtèn un video gratis en 5 minutos</p>
-		                </div>
-		                <div class="col-md-6">
-		                    <button>
-		                        Pruebalo gratis
-		                    </button>
-		                </div>
-		          </div>
-		        </div>
-		      </div>
-		    
-        
+        <div class="banner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7 col-ms-5 text-right">
+                                <h2>PRUEBA GRATUITA</h2>
+                                <p>Obtèn un video gratis de 5 minutos</p>
+                            </div>
+                            <div class="col-md-5 col-ms-7" id="llamado">
+                                <button>Pruebalo gratis</button>
+                            </div>
+                        </div>
+                    </div>   
+       </div>
     </section>
     
     <!--------footer------->
@@ -180,10 +182,10 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-ms-6 col-xs-12">
                     <p>Escribinos a: <br> <span>experienciadeususrio@gmail.com</span> <br>telef:930162726</p>
                 </div>
-                <div class="col-md-6 text-right">
+                <div class="col-md-6 col-md-6 col-xs-12 text-right">
                     <div class="redes-sociales">
                         <i class="icon-facebook"><a href="#"></a></i>
                         <i class="icon-twitter"><a href="#"></a></i>
