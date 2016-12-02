@@ -124,6 +124,7 @@ margin: 18px 0;
     height: 500px;
     background-image: url(../image/sec-2.jpg);
     background-size: cover;
+    opacity:0.5;
 }
 .pasos .texto-pasos{
     padding-left: 40px;
@@ -133,10 +134,7 @@ margin: 18px 0;
 .pasos .texto-pasos .iconos{
     padding: 10px 0;
 }
-.pasos .fondo-imagen{
-    background-color: rgba(21, 36, 42, 0.37);
-    z-index: 999;
-}
+
 
 
 /*----------uso testing----------*/
