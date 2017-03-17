@@ -35,11 +35,16 @@ header{
 header a{
     color: white;
 }
-header img, nav{
-    
+header nav ul li a{
+    color: white;
 }
 h1{
     margin: 150px 0;
+}
+header span{
+	color: white;
+	z-index: 1;
+	background-color: white;
 }
 .fondo-transparente{
     background-color: rgba(21, 36, 42, 0.37);
